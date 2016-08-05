@@ -1,0 +1,34 @@
+﻿StackLayout {
+    margin: 10;
+}
+
+.title {
+    font-size: 30;
+    horizontal-align: center;
+    margin: 20;
+}
+
+button {
+    width: 110;
+    font-size: 22;
+    horizontal-align: center;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.collapse {
+    visibility: collapse;
+}
+
+.shown {
+    visibility: visible;
+    color: blue;
+}
+
+
+.border {
+    border-color: #7d7d7d;
+    border-width: 1;
+}

@@ -1,0 +1,16 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+  <ActionBar title="Hidden Demo"/>
+  <StackLayout>
+    <Label text="Text to remain" class="title"/>
+    <StackLayout class="border">
+      <Label id="elem" text="Text to be Hidden" class="title shown"/>
+    </StackLayout>
+    <Label text="Text to remain" class="title"/>
+    <StackLayout orientation="horizontal">
+      <Button text="Show" tap="show" />
+      <Button text="Collapse" tap="collapse" />
+      <Button text="Hidden" tap="hidden" />
+    </StackLayout>
+
+  </StackLayout>
+</Page>
